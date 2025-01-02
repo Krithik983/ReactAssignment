@@ -1,0 +1,22 @@
+.title {
+  margin-top: 50px;
+  text-align: center;
+  color: #dd3f2a;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.heading1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.feature1 {
+  height: 50px;
+  width: 50px;
+}
+.row1 {
+  margin-bottom: 20px;
+}
+
+.textsize {
+  font-size: 1.5rem;
+}
