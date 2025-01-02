@@ -1,0 +1,25 @@
+.container1 {
+  padding: 2rem 1rem;
+  max-width: 75%;
+  margin: 30px auto;
+  text-align: center;
+  border-radius: 10px;
+  background-color: aliceblue;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-body h5 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.groupimg {
+  width: 100px;
+  height: 50px;
+}
+button.button2 {
+  background-color: #dd3f2a;
+  border: #dd3f2a;
+}
+button.button2:hover {
+  background-color: #f05757;
+}

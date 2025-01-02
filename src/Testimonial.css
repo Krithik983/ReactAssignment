@@ -1,1 +1,18 @@
-
+.company {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 50px;
+}
+.heading {
+  margin: 30px 300px;
+}
+.avatar {
+  height: 5rem;
+  width: 5rem;
+  margin-bottom: 20px;
+}
+.testimonial {
+  background-color: aliceblue;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
