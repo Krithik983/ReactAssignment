@@ -1,8 +1,9 @@
-.social {
+.social-desktop {
+  display: block;
   width: 80%;
   height: 600px;
 }
-.social1 {
+.social-mobile {
   display: none;
 }
 .para {
@@ -17,11 +18,11 @@
   margin-bottom: 60px;
 }
 @media (max-width: 768px) {
-  .social.desktop {
+  .social-desktop {
     display: none;
   }
 
-  .social.mobile {
+  .social-mobile {
     display: block;
   }
 }
