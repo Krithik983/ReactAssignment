@@ -1,14 +1,14 @@
 import "./App.css";
-import Blog from "./Blog/Blog";
-import Card from "./Card/Card";
-import Faq from "./Faq/Faq";
-import Features from "./Features/Features";
-import Footer from "./Footer/Footer";
-import Hero from "./Hero/Hero";
-import NavBar from "./NavBar/NavBar";
-import Social from "./Social/Social";
-import Testimonial from "./Testimonial/Testimonial";
-import Trail from "./Trail/Trail";
+import Blog from "./components/Blog/Blog";
+import Card from "./components/Card/Card";
+import Faq from "./components/FAQ/Faq";
+import Features from "./components/Features/Features";
+import Footer from "./components/Footer/Footer";
+import Hero from "./components/Hero/Hero";
+import NavBar from "./components/Navbar/NavBar";
+import Social from "./components/Social/Social";
+import Testimonial from "./components/Testimonial/Testimonial";
+import Trail from "./components/Trail/Trail";
 
 function App() {
   return (
