@@ -5,7 +5,8 @@ const Social = () => {
   return (
     <div>
       <center>
-        <img src="../Content.png" alt="" className="social" />
+        <img src="../Content.png" alt="" className="social-desktop" />
+        <img src="../social.png" alt="" className="social-mobile" />
       </center>
       <p className="para">Join 4,000+ companies already growing</p>
       <center>

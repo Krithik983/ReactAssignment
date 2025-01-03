@@ -1,7 +1,7 @@
 .custom-button {
   display: inline-flex;
   align-items: center;
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 0.2rem;
   border: 2px solid #f7c2c2;
   border-radius: 25px;
   background-color: #f8e4e4;
@@ -15,7 +15,7 @@
 
 .feature-badge {
   display: inline-block;
-  padding: 0.25rem 0.5rem;
+  padding: 0.1rem 0.5rem;
   background-color: #f8e4e4;
   color: #dd3f2a;
   border: 2px solid #f7c2c2;
@@ -28,6 +28,7 @@
 .button-text {
   display: flex;
   align-items: center;
+  font-size: 15px;
 }
 
 .arrow {
@@ -57,7 +58,7 @@
   margin-top: 0;
   margin-bottom: 20px;
 }
-button.button1 {
+button.button-demo {
   display: flex;
   color: black;
   font-weight: 600;
@@ -66,7 +67,7 @@ button.button1 {
   gap: 8px;
   border-radius: 30px;
 }
-button.button1:hover {
+button.button-demo:hover {
   background: white;
   color: black;
   background-color: #cfcfcf;
@@ -84,4 +85,28 @@ button.button {
 }
 button.button:hover {
   background-color: #f05757;
+}
+@media (max-width: 768px) {
+  .heading {
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+  }
+
+  .para {
+    font-size: 0.9rem;
+  }
+
+  .button-group {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* Space between buttons */
+  }
+
+  .button-demo,
+  .btn {
+    width: 100%; /* Full-width buttons */
+  }
 }

@@ -2,6 +2,9 @@
   width: 80%;
   height: 600px;
 }
+.social1 {
+  display: none;
+}
 .para {
   font-size: 20px;
   text-align: center;
@@ -12,4 +15,13 @@
   height: 50px;
   width: 75%;
   margin-bottom: 60px;
+}
+@media (max-width: 768px) {
+  .social.desktop {
+    display: none;
+  }
+
+  .social.mobile {
+    display: block;
+  }
 }
