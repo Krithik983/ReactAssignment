@@ -4,7 +4,7 @@ import "./Card.css";
 const Card = () => {
   return (
     <div className="container1">
-      <img src="../public/Avatar group.png" className="groupimg" alt="" />
+      <img src="../Avatar group.png" className="groupimg" alt="" />
       <div className="card-body">
         <h5 className="card-title">Still have questions?</h5>
         <p className="card-text">

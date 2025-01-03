@@ -1,12 +1,3 @@
-/*#6610f2*/
-/*
-.hero-image {
-  max-width: 100%;
-  height: 30px;
-  margin-bottom: 1rem;
-  border-radius: 12px;
-  object-fit: contain;
-}*/
 .custom-button {
   display: inline-flex;
   align-items: center;
@@ -59,9 +50,12 @@
   font-size: 50px;
   color: black;
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 .para {
   color: grey;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 button.button1 {
   display: flex;
@@ -71,11 +65,11 @@ button.button1 {
   justify-content: center;
   gap: 8px;
   border-radius: 30px;
-  border: 2px solid #cfcfcf;
 }
 button.button1:hover {
   background: white;
   color: black;
+  background-color: #cfcfcf;
 }
 .button-icon {
   font-size: 1.2em;

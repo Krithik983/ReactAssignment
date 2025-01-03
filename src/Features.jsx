@@ -5,7 +5,6 @@ const Features = () => {
   return (
     <div className="container px-4 py-5" id="featured-3">
       <div className="pb-2 border-bottom"></div>
-
       <p className="title">Features</p>
       <center>
         <h2 className="heading1">
@@ -19,7 +18,7 @@ const Features = () => {
 
       <div className="row g-4 py-5 row-cols-1 row-cols-lg-3 row1">
         <center>
-          <img src="../public/Featured icon.png" alt="" className="feature1" />
+          <img src="../Featured icon.png" alt="" className="feature1" />
 
           <h3 className="text-body-emphasis textsize">Share team inboxes</h3>
           <p>
@@ -29,11 +28,7 @@ const Features = () => {
         </center>
         <div className="feature col">
           <center>
-            <img
-              src="../public/Featured icon (1).png"
-              alt=""
-              className="feature1"
-            />
+            <img src="../Featured icon (1).png" alt="" className="feature1" />
             <h3 className="text-body-emphasis textsize">
               Deliver instant answers
             </h3>
@@ -45,11 +40,7 @@ const Features = () => {
         </div>
         <div className="feature col">
           <center>
-            <img
-              src="../public/Featured icon (2).png"
-              alt=""
-              className="feature1"
-            />
+            <img src="../Featured icon (2).png" alt="" className="feature1" />
             <h3 className="text-body-emphasis textsize">
               Manage your team with reports
             </h3>
@@ -61,11 +52,7 @@ const Features = () => {
         </div>
         <div className="feature col">
           <center>
-            <img
-              src="../public/Featured icon (3).png"
-              alt=""
-              className="feature1"
-            />
+            <img src="../Featured icon (3).png" alt="" className="feature1" />
             <h3 className="text-body-emphasis textsize">
               Connect with customers
             </h3>
@@ -78,11 +65,7 @@ const Features = () => {
         </div>
         <div className="feature col">
           <center>
-            <img
-              src="../public/Featured icon (4).png"
-              alt=""
-              className="feature1"
-            />
+            <img src="../Featured icon (4).png" alt="" className="feature1" />
             <h3 className="text-body-emphasis textsize">
               Connect the tool you already use
             </h3>
@@ -94,11 +77,7 @@ const Features = () => {
         </div>
         <div className="feature col">
           <center>
-            <img
-              src="../public/Featured icon (5).png"
-              alt=""
-              className="feature1"
-            />
+            <img src="../Featured icon (5).png" alt="" className="feature1" />
             <h3 className="text-body-emphasis textsize">
               Our people make the difference
             </h3>

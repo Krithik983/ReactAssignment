@@ -20,7 +20,7 @@ const NavBar = () => {
           <use xlinkHref="#bootstrap"></use>
         </svg>
       </a>
-      <img src="../public/Group 160.png" alt="" className="mainlogo" />
+      <img src="../Group 160.png" alt="" className="mainlogo" />
       <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 navbar">
         <li>
           <a href="#" className="nav-link px-2 link-body-emphasis">
@@ -51,7 +51,7 @@ const NavBar = () => {
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
-          <img src="../public/Avatar.png" alt="" className="avatar" />
+          <img src="../Avatar.png" alt="" className="avatar" />
         </a>
         <ul className="dropdown-menu text-small">
           <li>

@@ -1,0 +1,28 @@
+.container {
+  align-items: center;
+  padding: 30px;
+  padding-right: 30px;
+}
+
+.section h5 {
+  color: rgb(95, 94, 94);
+  font-size: 15px;
+}
+
+.main-logo {
+  height: 40px;
+  margin-top: 15px;
+}
+.company-details {
+  display: flex;
+}
+
+.company-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+p {
+  margin: 0; /* Removes default margin from the paragraph */
+}
