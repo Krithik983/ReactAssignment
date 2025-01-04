@@ -25,21 +25,17 @@
 }
 */
 
-.navbar-container {
-  padding: 0 15px;
-}
-
 .mainlogo {
   height: 40px;
-  margin-left: 5rem;
-  margin-right: 3rem;
 }
 
 .navbar {
   list-style: none;
-  margin: 0;
   padding: 0;
-  gap: 20px;
+  gap: 32px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-bottom: 1px solid #f2f4f7;
 }
 
 .avatar {

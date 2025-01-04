@@ -1,22 +1,57 @@
+.container-feature {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.feature-container {
+  margin-left: 224px;
+  margin-right: 224px;
+}
 .title {
   margin-top: 50px;
   text-align: center;
-  color: #dd3f2a;
-  font-weight: bold;
-  font-size: 1.2rem;
+  color: rgba(230, 63, 58, 1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 12px;
 }
 .heading1 {
-  font-size: 50px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
   margin-bottom: 20px;
+  color: rgba(16, 24, 40, 1);
 }
+
 .feature1 {
   height: 50px;
   width: 50px;
 }
+p {
+  color: rgba(71, 84, 103, 1);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .row1 {
   margin-bottom: 20px;
 }
 
 .textsize {
-  font-size: 1.5rem;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: rgba(16, 24, 40, 1);
+}
+
+.row p {
+  color: rgba(71, 84, 103, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 96px;
 }

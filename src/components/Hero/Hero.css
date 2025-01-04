@@ -1,13 +1,19 @@
+.hero-container {
+  margin-left: 80px;
+  margin-right: 80px;
+}
 .custom-button {
   display: inline-flex;
   align-items: center;
   padding: 0.2rem 0.2rem;
-  border: 2px solid #f7c2c2;
+  border: 1px solid rgba(230, 63, 58, 0.5);
+
   border-radius: 25px;
   background-color: #f8e4e4;
-  color: #dd3f2a;
+  color: #e63f3a;
   font-family: Arial, sans-serif;
   font-size: 1rem;
+  font-weight: 500;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -16,12 +22,12 @@
 .feature-badge {
   display: inline-block;
   padding: 0.1rem 0.5rem;
-  background-color: #f8e4e4;
-  color: #dd3f2a;
-  border: 2px solid #f7c2c2;
+  background-color: #ffffff;
+  color: #e63f3a;
+  border: 1px solid rgba(230, 63, 58, 0.5);
   border-radius: 20px;
   margin-right: 0.5rem;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 0.875rem;
 }
 
@@ -45,27 +51,45 @@
 .custom-button:hover .arrow {
   margin-left: 1rem;
 }
-
+.txt-container {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
 .heading {
   font-weight: 600;
   font-size: 50px;
-  color: black;
-  margin-top: 20px;
+  color: rgba(16, 24, 40, 1);
+  line-height: 72px;
+  margin-top: 16px;
   margin-bottom: 10px;
 }
-.para {
-  color: grey;
-  margin-top: 0;
-  margin-bottom: 20px;
+
+p {
+  margin-top: 24px;
+
+  font-size: 20px;
+  color: rgba(71, 84, 103, 1);
+  font-weight: 400;
+  line-height: 30px;
 }
 button.button-demo {
   display: flex;
-  color: black;
+  color: rgba(52, 64, 84, 1);
+  font-weight: 600;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 1);
   font-weight: 600;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  border-radius: 30px;
+  border-radius: 114px;
+  border-color: 1px solid rgba(208, 213, 221, 1);
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  width: 114px;
+  height: 48px;
 }
 button.button-demo:hover {
   background: white;
@@ -73,15 +97,27 @@ button.button-demo:hover {
   background-color: #cfcfcf;
 }
 .button-icon {
-  font-size: 1.2em;
+  width: 20px;
+  color: rgba(52, 64, 84, 1);
+  height: 20px;
   display: flex;
   align-items: center;
 }
 button.button {
-  background-color: #dd3f2a;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: rgba(230, 63, 58, 1);
   color: white;
-  border-radius: 30px;
-  border: 1px solid #f7c2c2;
+  border-radius: 108px;
+  border: 1px solid rgba(230, 63, 58, 1);
+  width: 114px;
+  height: 48px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
 }
 button.button:hover {
   background-color: #f05757;
@@ -99,14 +135,14 @@ button.button:hover {
 
   .button-group {
     display: flex;
-    flex-direction: column; /* Stack buttons vertically */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem; /* Space between buttons */
+    gap: 1rem;
   }
 
   .button-demo,
   .btn {
-    width: 100%; /* Full-width buttons */
+    width: 100%;
   }
 }

@@ -4,7 +4,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="px-4 py-5 my-5 text-center">
+    <div className="px-4 py-5 my-5 text-center hero-container">
       <div className="custom-button">
         <span className="feature-badge">New feature</span>
         <span className="button-text">
@@ -12,7 +12,7 @@ const Hero = () => {
         </span>
       </div>
 
-      <div className="text-container">
+      <div className="txt-container">
         <h1>Beautiful analytics to grow smarter</h1>
         <p>
           Powerful, self-serve product and growth analytics to help you convert,

@@ -14,7 +14,7 @@ const NavBar = () => {
     menuRef.current.style.right = "-350px";
   };
   return (
-    <nav className="container-fluid navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg">
       <a className="navbar-brand" href="#">
         <img src="../Group 160.png" alt="Company Logo" className="mainlogo" />
       </a>
@@ -55,11 +55,10 @@ const NavBar = () => {
         </li>
       </ul>
 
-      {/* Profile Dropdown */}
       <div className="dropdown">
         <a
           href="#"
-          className="d-block text-decoration-none dropdown-toggle"
+          className="d-block text-decoration-none "
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >

@@ -7,6 +7,8 @@
 }
 
 .blog-section {
+  margin-left: 40px;
+  margin-right: 40px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -53,7 +55,7 @@ h1 {
 .blog-container {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 32px;
   flex-wrap: wrap;
 }
 
