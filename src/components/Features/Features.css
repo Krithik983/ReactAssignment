@@ -5,9 +5,9 @@
 .feature-container {
   margin-left: 224px;
   margin-right: 224px;
+  margin-top: 96px;
 }
 .title {
-  margin-top: 50px;
   text-align: center;
   color: rgba(230, 63, 58, 1);
   font-weight: 600;

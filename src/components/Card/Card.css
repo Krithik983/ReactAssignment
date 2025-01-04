@@ -4,6 +4,9 @@
   text-align: center;
   align-items: center;
   border-radius: 10px;
+  margin-bottom: 96px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 
 .card-body h5 {
@@ -21,6 +24,8 @@
 button.button2 {
   background-color: rgba(230, 63, 58, 1);
   border: 1px solid rgba(230, 63, 58, 1);
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 button.button2:hover {
   background-color: #f05757;

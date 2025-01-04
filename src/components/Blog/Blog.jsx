@@ -35,7 +35,7 @@ const cardData = [
 const Blog = () => {
   return (
     <div className="blog-section">
-      <div className="blog-container-wrapper">
+      <div className="header-container">
         <div className="blog-header">
           <div className="header-text">
             <p className="small-heading">Our blog</p>
@@ -47,31 +47,33 @@ const Blog = () => {
           </div>
           <button className="view-posts-button">View all posts</button>
         </div>
+      </div>
+      <div className="blog-post-container">
+        {cardData.map((card, index) => (
+          <div className="card" key={index}>
+            <img src={card.image} className="card-img-top" alt="" />
+            <div className="card-body">
+              <p className="card-category">{card.category}</p>
+              <div className="card-title-row">
+                <h2 className="card-title">{card.title}</h2>
+                <a href="#" className="open-link">
+                  <MdOutlineArrowOutward />
+                </a>
+              </div>
+              <div className="card-text">
+                <p>{card.text}</p>
+              </div>
+              <div className="card-footer-sec">
+                <img src={card.avatar} alt="Avatar" />
+                <div>
+                  <p className="author">{card.author}</p>
 
-        <div className="blog-container">
-          {cardData.map((card, index) => (
-            <div className="card" key={index}>
-              <img src={card.image} className="card-img-top" alt="" />
-              <div className="card-body">
-                <p className="card-category">{card.category}</p>
-                <div className="card-title-row">
-                  <h2 className="card-title">{card.title}</h2>
-                  <a href="#" className="open-link">
-                    <MdOutlineArrowOutward />
-                  </a>
-                </div>
-                <p className="card-text">{card.text}</p>
-                <div className="card-footer">
-                  <img src={card.avatar} alt="Avatar" className="avatar" />
-                  <div>
-                    <p className="author-name">{card.author}</p>
-                    <p className="date">{card.date}</p>
-                  </div>
+                  <p className="date1">{card.date}</p>
                 </div>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </div>
   );

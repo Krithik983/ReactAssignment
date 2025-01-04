@@ -34,7 +34,7 @@ const Social = () => {
       <div className="logo-container">
         {imageData.map((img, index) => (
           <div className="logos" key={index}>
-            <img src={img.image} className="card-img-top" alt="" />
+            <img src={img.image} alt="" />
           </div>
         ))}
       </div>

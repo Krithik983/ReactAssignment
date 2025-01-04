@@ -2,14 +2,15 @@
   margin-left: 80px;
   margin-right: 80px;
   margin-top: 64px;
+  padding-right: 32px;
+  padding-left: 32px;
+  border-bottom: 1px solid rgba(234, 236, 240, 1);
 }
 
 .social-desktop {
   display: block;
-  width: 1216px;
-  height: 560px;
-  gap: 0px;
-  opacity: 0px;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
 }
 .social-mobile {
   display: none;
@@ -27,14 +28,14 @@
 .logo-container {
   display: flex;
   margin-top: 32px;
-  margin-left: 80px;
-  margin-right: 80px;
   gap: 27.2px;
-  align-items: center;
-  justify-content: center;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 96px;
+  justify-content: space-between;
 }
 
-.logos {
+.logos img {
   height: 48px;
   width: 170px;
 }
