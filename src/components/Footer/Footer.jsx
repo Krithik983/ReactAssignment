@@ -73,8 +73,8 @@ const Footer = () => {
 
   return (
     <div>
-      <div className="container">
-        <footer className="py-5">
+      <div className="footer-container">
+        <footer className="inner-container">
           <div className="row">
             {footerSections.map((section, index) => (
               <div key={index} className="col-md-2 mb-3 section">

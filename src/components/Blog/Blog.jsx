@@ -38,12 +38,14 @@ const Blog = () => {
       <div className="header-container">
         <div className="blog-header">
           <div className="header-text">
-            <p className="small-heading">Our blog</p>
+            <h5>Our blog</h5>
             <h1>Latest blog posts</h1>
-            <p>
-              Tools and strategies modern teams need to help their companies
-              grow.
-            </p>
+            <span className="small-heading">
+              <p>
+                Tools and strategies modern teams need to help their companies
+                grow.
+              </p>
+            </span>
           </div>
           <button className="view-posts-button">View all posts</button>
         </div>
