@@ -44,7 +44,7 @@ const Features = () => {
   return (
     <div className="container-feature">
       <div className="feature-container">
-        <p className="title">Features</p>
+        <span>Features</span>
         <center>
           <h2 className="heading1">
             Analytics that feels like it’s from the future
@@ -56,9 +56,9 @@ const Features = () => {
           </p>
         </center>
       </div>
-      <div className="row py-5 row-cols-1 row-cols-lg-3">
+      <div className="row-container">
         {featuresData.map((feature, index) => (
-          <div className="feature col" key={index}>
+          <div className="features-cont" key={index}>
             <center>
               <img
                 src={feature.imgSrc}

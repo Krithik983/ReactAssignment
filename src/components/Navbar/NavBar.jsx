@@ -8,7 +8,7 @@ const NavBar = () => {
   const menuRef = useRef();
   const openMenu = () => {
     console.log("button clicked");
-    menuRef.current.style.right = "0";
+    menuRef.current.style.right = "0px";
   };
   const closeMenu = () => {
     menuRef.current.style.right = "-350px";

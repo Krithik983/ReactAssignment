@@ -27,10 +27,10 @@ const Social = () => {
     <div className="social-container">
       <center>
         <img src="../Content.png" alt="" className="social-desktop" />
-        <img src="../social.png" alt="" className="social-mobile" />
+        <img src="../image 2.png" alt="" className="social-mobile" />
       </center>
 
-      <p className="para">Join 4,000+ companies already growing</p>
+      <p>Join 4,000+ companies already growing</p>
       <div className="logo-container">
         {imageData.map((img, index) => (
           <div className="logos" key={index}>

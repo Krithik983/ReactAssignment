@@ -4,7 +4,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="px-4 py-5 my-5 text-center hero-container">
+    <div className="my-5 text-center hero-container">
       <div className="custom-button">
         <span className="feature-badge">New feature</span>
         <span className="button-text">
@@ -14,12 +14,13 @@ const Hero = () => {
 
       <div className="txt-container">
         <h1>Beautiful analytics to grow smarter</h1>
-        <p>
-          Powerful, self-serve product and growth analytics to help you convert,
-          engage, and retain more users. Trusted by over 4,000 startups.
-        </p>
       </div>
-      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center button-group">
+      <p>
+        Powerful, self-serve product and growth analytics to help you convert,
+        engage, and retain more users. Trusted by over 4,000 startups.
+      </p>
+
+      <div className="button-group">
         <button
           type="button"
           className="btn btn-outline-secondary btn-lg px-4 button-demo"

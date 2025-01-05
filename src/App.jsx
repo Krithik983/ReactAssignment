@@ -12,26 +12,18 @@ import Trail from "./components/Trail/Trail";
 
 function App() {
   return (
-    <>
-      <section>
-        <NavBar />
-        <Hero />
-        <Social />
-      </section>
-      <section>
-        <Features />
-        <Testimonial />
-      </section>
-      <section>
-        <Faq />
-        <Card />
-      </section>
-      <section>
-        <Blog />
-        <Trail />
-        <Footer />
-      </section>
-    </>
+    <div className="app-container">
+      <NavBar />
+      <Hero />
+      <Social />
+      <Features />
+      <Testimonial />
+      <Faq />
+      <Card />
+      <Blog />
+      <Trail />
+      <Footer />
+    </div>
   );
 }
 
