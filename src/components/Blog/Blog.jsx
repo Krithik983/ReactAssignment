@@ -52,31 +52,32 @@ const Blog = () => {
       </div>
       <div className="blog-post-container">
         {cardData.map((card, index) => (
-          <div className="card" key={index}>
+          <div className="card-1" key={index}>
             <img src={card.image} className="card-img-top" alt="" />
-            <div className="card-body">
-              <p className="card-category">{card.category}</p>
+            <div className="card-category-text">
+              <p>{card.category}</p>
               <div className="card-title-row">
-                <h2 className="card-title">{card.title}</h2>
+                <h2>{card.title}</h2>
                 <a href="#" className="open-link">
                   <MdOutlineArrowOutward />
                 </a>
               </div>
-              <div className="card-text">
+              <div className="card-text-body">
                 <p>{card.text}</p>
               </div>
               <div className="card-footer-sec">
                 <img src={card.avatar} alt="Avatar" />
-                <div>
-                  <p className="author">{card.author}</p>
+                <div className="author">
+                  <p>{card.author}</p>
 
-                  <p className="date1">{card.date}</p>
+                  <span className="date1">{card.date}</span>
                 </div>
               </div>
             </div>
           </div>
         ))}
       </div>
+      <button className="button-view">View all posts</button>
     </div>
   );
 };

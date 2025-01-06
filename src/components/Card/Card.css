@@ -14,6 +14,14 @@
   font-size: 20px;
   line-height: 30px;
   color: rgba(16, 24, 40, 1);
+  margin-bottom: 8px;
+}
+.card-body p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(71, 84, 103, 1);
+  margin-bottom: 32px;
 }
 .groupimg {
   width: 100px;
@@ -21,13 +29,21 @@
   margin-top: 32px;
   margin-bottom: 32px;
 }
-button.button2 {
+.button2 {
   background-color: rgba(230, 63, 58, 1);
   border: 1px solid rgba(230, 63, 58, 1);
-  margin-top: 32px;
+  border-radius: 8px;
+  width: 134px;
+  height: 48px;
+  padding: 12px 20px 12px 20px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 2px;
   margin-bottom: 32px;
 }
-button.button2:hover {
+.button2:hover {
   background-color: #f05757;
 }
 
@@ -36,4 +52,35 @@ button.button2:hover {
   margin-right: 32px;
   border-radius: 16px;
   background-color: rgba(249, 250, 251, 1);
+}
+@media (max-width: 768px) {
+  .container1 {
+    margin-left: 16px;
+    margin-right: 16px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 64px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .card-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 16px;
+    background-color: rgba(249, 250, 251, 1);
+    padding: 32px 20px 32px 20px;
+  }
+  .groupimg {
+    width: 120px;
+    height: 56px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+  .card-body p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(71, 84, 103, 1);
+    margin-bottom: 24px;
+  }
 }

@@ -12,7 +12,7 @@ const Testimonial = () => {
           imagine working without it.
         </h1>
 
-        <img src="../Avatar (1).png" alt="" className="avatar" />
+        <img src="../Avatar (1).png" alt="" className="profile-wu" />
         <h4>Candice Wu</h4>
         <p>Product Manager, Sisyphus</p>
       </div>

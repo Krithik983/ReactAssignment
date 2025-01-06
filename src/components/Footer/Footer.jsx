@@ -72,34 +72,32 @@ const Footer = () => {
   ];
 
   return (
-    <div>
-      <div className="footer-container">
-        <footer className="inner-container">
-          <div className="row">
-            {footerSections.map((section, index) => (
-              <div key={index} className="col-md-2 mb-3 section">
-                <h5>{section.title}</h5>
-                <ul className="nav flex-column">
-                  {section.links.map((link, linkIndex) => (
-                    <li key={linkIndex} className="nav-item mb-2">
-                      <a
-                        href={link.href}
-                        className="nav-link p-0 text-body-secondary link1"
-                      >
-                        {link.label}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-          <div className="border-top company-details">
-            <img src="../Group 160.png" alt="" className="main-logo" />
-            <p>© 2077 Zysktechnologies. All rights reserved.</p>
-          </div>
-        </footer>
-      </div>
+    <div className="footer-container">
+      <footer className="inner-container">
+        <div className="row footer-section">
+          {footerSections.map((section, index) => (
+            <div key={index} className="col-md-2 mb-3 section">
+              <h5>{section.title}</h5>
+              <ul className="nav flex-column">
+                {section.links.map((link, linkIndex) => (
+                  <li key={linkIndex} className="nav-item mb-2">
+                    <a
+                      href={link.href}
+                      className="nav-link p-0 text-body-secondary link1"
+                    >
+                      {link.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+        <div className="border-top company-details">
+          <img src="../Group 160.png" alt="" className="main-logo" />
+          <p>© 2077 Zysktechnologies. All rights reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 };
