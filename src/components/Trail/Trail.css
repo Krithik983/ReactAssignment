@@ -114,7 +114,7 @@ button.learn-button:hover {
   button.learn-button {
     display: flex;
     background-color: rgba(255, 255, 255, 1);
-    width: 384px;
+    width: 343px;
     height: 48px;
     color: rgba(52, 64, 84, 1);
     font-weight: 600;
@@ -137,7 +137,7 @@ button.learn-button:hover {
 
   button.get-started-button {
     background-color: rgba(230, 63, 58, 1);
-    width: 384px;
+    width: 343px;
     height: 48px;
     padding: 12px 20px 12px 20px;
     color: rgba(255, 255, 255, 1);
